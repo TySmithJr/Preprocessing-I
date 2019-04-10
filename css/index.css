@@ -134,3 +134,22 @@ html,
 body {
   height: 100%;
 }
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+.first-section {
+  border: 2px solid black;
+  width: 80%;
+}
+.first-section .name {
+  border-bottom: 2px solid black;
+  width: 30%;
+}
+.first-section h1 {
+  font-size: 5rem;
+  font-style: oblique;
+}
+.first-section .software-engineer {
+  font-size: 3rem;
+}
